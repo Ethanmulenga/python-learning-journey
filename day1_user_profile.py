@@ -2,16 +2,20 @@
 # Data types
 name = input("Your Name please: ")
 age = int(input("And your Age: "))
-height = float(input("How tall are you (yes/no): "))
-is_student = bool(input("Are you are student: "))
+height = float(input("How tall are you: "))
+is_student = input("Are you are student(yes/no): ").lower()
+if is_student == "yes":
+    is_student = True
+else:
+    is_student = False
 nickname = None
 
 #Print profile summary;
-print("Simple User Profile:\n")
+print("\nSimple User Profile:\n")
 print("Name:", name)
 print("Age:", age)
 print("Height:", height)
-print("student", is_student)
+print("student:", is_student)
 print("Nickname:", nickname)
 
 #conditional 
