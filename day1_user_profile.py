@@ -1,0 +1,32 @@
+#-Task: Build a Simple User Profile Script
+# Data types
+name = "Cassy"
+age = 23
+height = 1.4
+is_student = True
+nickname = None
+
+#Print profile summary;
+print("Simple User Profile:\n")
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+print("student", is_student)
+print("Nickname:", nickname)
+
+#conditional 
+if age >= 18:
+    print("You are an adult")
+else:
+    print("You are too young")
+
+#update age
+age = age + 1
+print("Next year you will be ", age)
+
+#Type Checks 
+print(type(name))
+print(type(age))
+print(type(is_student))
+print(type(height))
+print(type(nickname))
