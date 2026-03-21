@@ -1,9 +1,9 @@
 #-Task: Build a Simple User Profile Script
 # Data types
-name = "Cassy"
-age = 23
-height = 1.4
-is_student = True
+name = input("Your Name please: ")
+age = int(input("And your Age: "))
+height = float(input("How tall are you (yes/no): "))
+is_student = bool(input("Are you are student: "))
 nickname = None
 
 #Print profile summary;
