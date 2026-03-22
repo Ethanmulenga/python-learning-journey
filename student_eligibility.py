@@ -5,7 +5,7 @@ is_registered = input("Are you registered(YES/NO): ").lower()
 
 #Boolean Logic
 if is_registered == "yes":
-    is_registered == True
+    is_registered = True
 elif is_registered == "no":
     is_registered = False
 else:
