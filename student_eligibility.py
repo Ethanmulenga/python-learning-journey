@@ -6,15 +6,15 @@ is_registered = input("Are you registered(YES/NO): ").lower()
 #Boolean Logic
 if is_registered == "yes":
     is_registered == True
-elif is_registered == "No":
-    is_registered == False
+elif is_registered == "no":
+    is_registered = False
 else:
     print("what are you doing ?")
     exit()
 
 # Rule 1 Not Registered
 if not is_registered:
-    print("Access Denied: Too Young ")
+    print("Access Denied: NOT REGISTERED")
 
 # Rule 2 Age Check 
 elif age < 0:
@@ -32,4 +32,4 @@ else:
     elif grade >= 50:
         print("Eligible For Standard Program")
     else:
-        print("Invalid Input")
+        print("Not Eligible For The Program")
