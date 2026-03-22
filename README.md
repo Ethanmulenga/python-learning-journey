@@ -140,3 +140,19 @@ This is the backbone of:
 * Payment approvals
 * Access control
 
+# DAY 2: LOOPS
+
+# Task 3: Create A Menu Driven User Eligibilty System.
+Your challenge is:
+
+👉 Turn this into a menu-driven system
+
+Where user sees:
+
+1. Check Eligibility
+2. Exit
+
+And the program loops until they exit.
+You have Already Learnt how to handle; 
+* Control Flow 
+* The if elif else statements now you just have to understand looping.
