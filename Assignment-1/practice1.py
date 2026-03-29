@@ -1,6 +1,8 @@
 # this is the file i will be using for my practice sessions on this Assignment.
 
 import pandas as pd 
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 # first name a variable and then see what is in the file.
 df = pd.read_csv("dirty_finance.csv")
@@ -46,13 +48,10 @@ min_amount = df["amount"].min()
 category_totals = df.groupby("category")["amount"].sum().sort_values(ascending=False)
 daily_totals = df.groupby("date")["amount"].sum()
 
+# x = categories, y = totals
+sns.barplot(x=category_totals.index, y=category_totals.values)
+plt.title("Spending per category")
 
-print(df)
-print(f"The Total Amount Spent: {total_spent}")
-print(f"Average Transaction: {average_spent}")
-print(f"Largest Transaction: {max_amount}")
-print(f"smallest Transaction: {min_amount}")
-print(category_totals)
-print(daily_totals)
+
 
 
