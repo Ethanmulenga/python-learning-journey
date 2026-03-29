@@ -161,3 +161,7 @@ I have decided to ditch this task i will continue it in the near future but not 
 # NOW WE BEGIN ASSIGNMENTS THIS ONE IS PERSONAL. 
 # ASSIGNMENT 1: PERSONAL FINANCE ANALYZER (1-2 DAYS)
 The goal is fo it to load CSVs, clean with pandas, visualize spending with matplotlib or Seaborn, add simple Scikit-learn prediction. more information in the PAssignment-1 folder.
+here are the results; 
+![alt text](image.png)
+![alt text](<Screenshot from 2026-03-30 01-17-37.png>)
+![alt text](<Screenshot from 2026-03-30 01-18-34.png>)
