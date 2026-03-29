@@ -49,9 +49,20 @@ category_totals = df.groupby("category")["amount"].sum().sort_values(ascending=F
 daily_totals = df.groupby("date")["amount"].sum()
 
 # x = categories, y = totals
+plt.figure(figsize=(8, 5))
 sns.barplot(x=category_totals.index, y=category_totals.values)
 plt.title("Spending per category")
+plt.ylabel("Amount")
+plt.xlabel("Category")
+plt.show()
 
-
-
+# daily totals 
+plt.figure(figsize=(10, 5))
+plt.plot(daily_totals.index, daily_totals.values, marker = '*')
+plt.title("Daily Spending over time")
+plt.ylabel("Amount")
+plt.xlabel("Date")
+plt.xticks(rotation=45) # This rotates dates for readability
+plt.grid(True)
+plt.show()
 
