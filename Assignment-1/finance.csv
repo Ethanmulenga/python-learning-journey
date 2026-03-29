@@ -1,0 +1,13 @@
+date,category,description,amount,type
+2026-03-01,Food,Lunch,-45,expense
+2026-03-01,Transport,Bus fare,-10,expense
+2026-03-02,Income,Freelance payment,500,income
+2026-03-02,Food,Groceries,-120,expense
+2026-03-03,Entertainment,Netflix subscription,-15,expense
+2026-03-03,Transport,Fuel,-60,expense
+2026-03-04,Income,Salary,1500,income
+2026-03-04,Utilities,Electricity bill,-200,expense
+2026-03-05,Food,Dinner,-70,expense
+2026-03-06,Health,Pharmacy,-30,expense
+2026-03-06,Income,Side hustle,200,income
+2026-03-07,Shopping,Clothes,-250,expense
