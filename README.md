@@ -165,3 +165,41 @@ here are the results;
 ![alt text](image.png)
 ![alt text](<Screenshot from 2026-03-30 01-17-37.png>)
 ![alt text](<Screenshot from 2026-03-30 01-18-34.png>)
+
+# Assignment 2: Automation + CLI Tool
+
+Let’s build a real mini-assistant — a Python script that performs useful tasks like:
+
+Checking system info
+Cleaning temp files
+Backing up folders
+Fetching weather
+Managing notes
+Running daily routines
+
+This type of project teaches:
+
+File handling
+APIs
+Command-line arguments
+Modular code
+Automation mindset
+
+And importantly:
+It integrates beautifully with Bash or executables.
+
+✅ HOW THE PROJECT WORKS
+
+You create a Python script like:
+
+assistant.py --clean
+assistant.py --weather
+assistant.py --backup /home/ethan/Documents
+
+- Under the hood:
+
+argparse handles commands
+Python functions perform work
+Everything stays modular and expandable
+
+This is REAL software engineering.
